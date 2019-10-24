@@ -1,0 +1,9 @@
+vim src/main/resources/weasis-pacs-connector.properties
+
+vim src/main/resources/dicom-dcm4chee.properties 
+
+mvn clean
+
+mvn install
+
+cp target/weasis-pacs-connector.war /var/lib/dcm4chee/server/default/deploy/
